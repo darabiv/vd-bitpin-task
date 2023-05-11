@@ -16,7 +16,7 @@ DB_PORT=
 ```bash
 sudo -u postgres psql
 postgres=# CREATE DATABASE [your db name];
-postgres=# CREATE USER [your db user] WITH PASSWORD [your db password];
+postgres=# CREATE USER [your db user] WITH PASSWORD '[your db password]';
 postgres=# ALTER ROLE [your db user] SET client_encoding TO 'utf8';
 postgres=# ALTER ROLE [your db user] SET default_transaction_isolation TO 'read committed';
 postgres=# ALTER ROLE [your db user] SET timezone TO 'UTC';
